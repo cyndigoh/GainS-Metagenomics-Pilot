@@ -1,0 +1,16 @@
+# GAinS Metagenomics Pilot Study Protocol## Study groupGAinS patients with severe sepsis from CAPTotal number of samples = 32Influenza A = 10Unknown diagnosis = 11Strep pneumoniae = 10Varicella zoster virus = 1
+
+## Method1. Samples* 500ul plasma previously collected into EDTA bottles, centrifuged and stored at -80C
+2. RNA isolation* Nucleic acid extraction (NucliSENS easyMAG or miniMAG)* Extract into water (to allow speed vac to be used) 30ul total volume* Store at -80C
+3. Library prep
+* Fragmentation will follow the Norovirus protocol as this allows fragmentation into larger sizes (Nextera Library Prep will result in loss of the ends of cDNA)
+* Reverse transcription to ds cDNA
+* Take 2 x 5ul aliquots
+	+ Aliquot A to undergo processing with NEBNext Directional RNA Library Prep Kit
+	+ Aliquot B to undergo processing with Nextera DNA Library Prep Kit
+
+* *To test the suitability of using a combined library prep instead of the two separate library preps described above, 3 “unknown” samples will be spiked with HBV plasmid vectors and ERCCs, each at a 1% (by weight) concentration. The HBV plasmid vectors will allow us to evaluate the suitability of the RNA kit for DNA-based pathogens and the ERCCs the DNA kit for RNA-based pathogens.*
+4. Sequencing with Illumina HiSeq 2500 
+* what length reads? HCV used 100b paired-end reads but I think Rory previously suggested 200b for this study
+5. Bioinformatic analysis
+6. Repeat steps 3-4 with influenza probe set
